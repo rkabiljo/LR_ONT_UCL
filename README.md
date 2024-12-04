@@ -25,3 +25,16 @@ nextflow run epi2me-labs/wf-human-variation --bam 'wf-human-variation-demo/demo.
 ```
 This was with standard profile.  for cluster - I use standard profile and submit with qsub. Did not manage to get profile cluster to work
 ```
+qsub submitNextflow.sh
+```
+
+## Install dorado to perform basecalling
+```
+cd /data/hestia/rkabiljo/ONT
+wget https://cdn.oxfordnanoportal.com/software/analysis/dorado-0.8.3-linux-x64.tar.gz
+tar xzf dorado-0.8.3-linux-x64.tar.gz 
+cd dorado-0.8.3-linux-x64/
+bin/dorado basecaller
+```
+
+```
