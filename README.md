@@ -37,4 +37,7 @@ cd dorado-0.8.3-linux-x64/
 bin/dorado basecaller
 ```
 
+I mounted RDS on hestia, so that original files could be read directly from RDS
+```
+sudo mount -t cifs -o domain=ad.ucl.ac.uk,user=skgtrk2,uid=$USER //rdp.arc.ucl.ac.uk/ritd-ag-project-rd01is-rdspi25  /data/hestia/rkabiljo/UCL_RDS/
 ```
