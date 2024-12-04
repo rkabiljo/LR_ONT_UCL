@@ -1,5 +1,7 @@
 # LR_ONT_UCL
 
+Data was downloaded to hestia using globus client.  See Globus.md for instructions
+
 Log on to hestia
 ```
 ssh rkabiljo@128.40.184.7
