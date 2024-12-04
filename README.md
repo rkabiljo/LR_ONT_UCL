@@ -21,5 +21,5 @@ tar -xzvf wf-human-variation-demo.tar.gz
 nano nextflow.config
 nextflow run epi2me-labs/wf-human-variation --bam 'wf-human-variation-demo/demo.bam' --ref 'wf-human-variation-demo/demo.fasta' --bed 'wf-human-variation-demo/demo.bed' --sample_name 'DEMO' --snp --sv --mod --phase
 ```
-This was with standard profile.  for cluster?
+This was with standard profile.  for cluster - I use standard profile and submit with qsub. Did not manage to get profile cluster to work
 ```
